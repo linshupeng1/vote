@@ -1,0 +1,76 @@
+/****
+ Use for: 超级物种_评选
+ Date：2017.1.8
+ Version：1.0
+ Author：lsp
+ */
+/*base css*/
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary,menu{display:block;}
+html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;text-size-adjust:100%;}
+body,div,span,iframe,input,form,input,h1,h2,h3,h4,h5,h6,p,a,em,img,b,dl,dt,dd,ul,ol,li,label,menu{padding:0;margin:0;}
+a:focus{outline:thin dotted;}
+a:active,a:hover{outline:0;-webkit-tap-highlight-color:transparent;}
+img{border:0;}
+button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}
+h1,h2,h3,h4,h6{font-weight:600;font-size:100%;}
+em,i{font-style:normal;}
+ul,ol{list-style:none;}
+body{font:.75rem/1.8   "microsoft yahei",tahoma,'\5b8b\4f53',arial,\5b8b\4f53,sans-serif;background-color:#f2f2f2;color:#1f1a17;margin:0 auto;-webkit-text-size-adjust:100%!important;}
+a{color:#1f1a17;text-decoration:none;outline:none;-webkit-transition:all .3s ease-out;-moz-transition:all .3s ease-out;-ms-transition:all .3s ease-out;-o-transition:all .3s ease-out;transition:all .3s ease-out;}
+a:hover,a:active,a:focus{text-decoration:none;}
+input[type="checkbox"],input[type="radio"]{margin:0;-webkit-appearance:none;outline:none;vertical-align:middle;}
+.clearfix{*zoom:1;}
+.clearfix:before,.clearfix:after{display:table;content:"";line-height:0;}
+.clearfix:after{clear:both;}
+.fl{float:left;}
+.fr{float:right;}
+.zoom{zoom:1;overflow:hidden;}
+body{position:relative;}
+html,body{height:100%;width:100%;}
+@media screen and  (min-width:1023px){
+	html{font-size:28px;}
+}
+@media screen and  (max-width:1023px){
+	html{font-size:26px;}
+}
+@media screen and  (max-width:767px){
+	html{font-size:22px;}
+}
+@media screen and  (max-width:640px){
+	html{font-size:20px;}
+}
+@media screen and  (max-width:579px){
+	html{font-size:18px;}
+}
+@media screen and  (max-width:424px){
+	html{font-size:16px;}
+}
+@media screen and  (max-width:374px){
+	html{font-size:14px;}
+}
+body{width:100%;height:100%;margin: 0 auto;}
+.main {width:100%;margin: 0 auto;max-width: 640px;background:#000 url(../images/bg.jpg) no-repeat;background-size: 100%;}
+.header-wrap {font-size: 0;position: relative;}
+.header-wrap .total-people {position:absolute;top:24%;left:28%;width:10.357rem;height:3.393rem;background: url(../images/num.png) no-repeat;background-size: 100%;text-align: right;font-size: 0;}
+.header-wrap .total-people i {display: inline-block;height: 3.393rem;line-height:3.75rem;width: 18%;color: #fff;font-size: 1.5rem;text-align: center;margin-right: 0.1rem;}
+.header-wrap .total-people i:nth-child(4) {margin-right: 0.2rem !important;}
+.footer-wrap {background-color: #000;font-size: 0;}
+.header {width: 100%;}
+.footer-wrap {padding: 0 2.2rem 2.57rem;}
+.footer {width: 100%;display: block;}
+.footer:nth-child(1){margin-bottom: 1.93rem;}
+.footer:nth-child(2){margin-bottom: 2rem;}
+.cnt-wrap {background-color: #000;padding: 2.857rem 1.857rem 0;}
+.cnt-wrap .tit {display: block;width: 50%;margin: 0 auto;}
+.cnt-wrap .cnt {padding: 0.7rem 0;text-align: center;}
+.cnt-wrap .cnt li {display:inline-block;width: 44%;padding: 0.5rem;box-sizing: border-box;background-color:#fff;margin: 0.5rem;color: #633319;font-size: 0.8rem;}
+.cnt-wrap .cnt li .pic-wrap {width: 100%;height: 8rem;line-height:8rem;font-size: 0;overflow: hidden;border: 1px solid #EEBA58;}
+.cnt-wrap .cnt li .pic {width: 100%;vertical-align: middle;}
+.cnt-wrap .cnt li .info {margin-bottom: 0.2rem;}
+.cnt-wrap .cnt .btn-vote {display: block;margin: 0 auto;border-radius: 2rem;background-color: #eeba58;text-align: center;color: #633319;height: 0.857rem;line-height: 0.857rem;font-size: 0.6rem;}
+/*验证提示框*/
+.popup {position: fixed;left: 0;top: 0;width: 100%;height: 100%;background-color: rgba(0, 0, 0, 0.5);display: box;display: -webkit-box;display: -moz-box;-webkit-box-pack: center;-moz-box-pack: center;-webkit-box-align: center;-moz-box-align: center;}
+.popup-cnt{width: 18rem;margin: 0 auto;background-color: #e9c37a;text-align: center;padding:0 1.357rem;box-sizing: border-box;border-radius: 5px;}
+.popup-cnt .tit {margin: 0.5rem;font-size: 1.2rem;color: #633319;}
+.popup-cnt .tips {margin: 1rem 0;font-size: 0.8rem;color: #633319;}
+.popup-cnt .btn-confirm {display: block;margin:0 auto 1rem;width: 40%;height: 2rem;line-height: 2rem;color: #fff;background-color: orange;border-radius: 5px;}
